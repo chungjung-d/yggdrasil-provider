@@ -1,0 +1,39 @@
+# Nix
+.direnv/
+result
+result-*
+
+# IDE - IntelliJ/GoLand
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Binary output directories
+bin/
+dist/
+
+# Dependency directories
+vendor/
+
+# Log files
+*.log
+
+# Environment variables
+.env
